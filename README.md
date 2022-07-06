@@ -12,9 +12,14 @@ Therefore, the twist in my project, targeted at all you anime weebs, requires ge
 This hand gesture remote control using OpenCV and MachineLearning aspect of this project is inspired by various Google Mediapipe pose detection projects on the web. While the project did not use Mediapipe (because Naruto handsigns confuses Mediapipe), similar intended result is achieved with the help of transfer learning.
 
 The Naruto handsign element, on another hand, is inspired by my previous project: [Naruto OpenCV Machine-Learning Game](https://github.com/Aspiring-DataGod9000/Naruto-OpenCV-Machine-learning-Game.git).
+
 ## Demo
 
-Insert gif or link to demo
+
+
+https://user-images.githubusercontent.com/102948566/177460034-1cd361af-371e-4ea5-918b-2e1ed328828d.mp4
+
+
 
 
 ## Training the Model
@@ -29,6 +34,10 @@ Insert gif or link to demo
 
 5. Finally, logics are written within OpenCV to assign different commands to each series of gestures. Interface of the gesture guide is coded in Pygame.
 ## Model
+Model Of Choice: SSD Mobile Net
+
+![mobileNet-SSD-network-architecture](https://user-images.githubusercontent.com/102948566/177460122-143ca192-9fb9-49d7-86fc-8f2c05e7f105.png)
+
 
 Model Accuracy:
 
